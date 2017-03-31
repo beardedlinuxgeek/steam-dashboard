@@ -1,0 +1,30 @@
+.panel-body {
+  padding: 0;
+}
+a.thumbnail_link {
+  padding: 4px 4px 0px;
+  margin: 12px;
+  display: block;
+}
+div.thumbnail_container {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat !important;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  div.thumbnail_container {
+      height: 91px;
+  }
+}
+@media (min-width: 992px) {
+  div.thumbnail_container {
+      height: 130px;
+  }
+}
+@media (min-width: 1200px) {
+  div.thumbnail_container {
+      height: 165.75px;
+  }
+}
